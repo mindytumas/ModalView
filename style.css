@@ -1,0 +1,165 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-image:  url(pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Verdana", sans-serif, bold;
+    font-size: 15px;
+}
+
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.modal-content{
+    background-color: white;
+    padding: 20px;
+    position: absolute;
+}
+
+input{
+    width: 100%;
+    display: block;
+    margin: 15px left;
+
+}
+.input1{
+    width: 30%;
+    display: block;
+    margin: 15px left;
+    
+}
+
+.modal-footer{
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+
+}
+.fa-minus-circle{
+    color: red;
+}
+
+.fa-plus-circle{
+    color: green;
+
+}
+
+.form-control{
+    display: inline-block;
+    width: calc(50% - 45px);
+    border: 1px solid green;
+}
+
+.fas{
+    cursor: pointer;
+}
+
+.submit_btn{
+    min-width: 150px;
+    max-width: 250px;
+    font-size: 1.2rem;
+    height: 60px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.submit_btn i {
+    padding-right: 10px;
+}
+.button{
+    margin-top: 200px;
+    margin-left: 650px}
+
+    
+.basic{
+
+    background-color: aquamarine;
+    opacity: 0.7;
+    position: absolute;
+    width: 1200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: "Verdana", "sans-serif" ,"bold";
+  s 
+    
+    
+}
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1000px;
+    text-align: center;
+    margin-top: 200px;
+    
+
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}  
+.btn-one{
+    background-color: darkcyan;
+    font-family: "Roboto", "sans-serif";
+}
